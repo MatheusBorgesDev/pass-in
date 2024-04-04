@@ -1,3 +1,11 @@
+import { AttendeeList } from "./components/attenndee-list";
+import { Header } from "./components/header";
+
 export function App() {
-  return <h1 className="text-3xl font-bold underline">Hello world!</h1>;
+  return (
+    <div className="flex flex-col gap-5 max-w-[1216px] mx-auto py-5">
+      <Header />
+      <AttendeeList />
+    </div>
+  );
 }
